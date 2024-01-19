@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="">
+
+<header style="border: 2px solid black; font-style:bold;  box-shadow:2px 0px 14px 2px black;  border: 1px solid; width: 100vw; ">
+  <%- include('../partials/header'); %>
+</header>
+
+<main style="padding-top: 120px;" class="container">
+  
+   <div class="container bg-0 p-3 rounded  " style="color: black; box-shadow:1px 6px 16px 3px black;  border: 1px solid;">
+    <div class="row ">
+      <div class="col my-auto ">
+        <div class="py-3 my-1" >
+          <h1><b>Welcome to ShortLinks!</b></h1>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Enter Your Url</label>
+              <input type="text" class="form-control" id="UserUrl" aria-describedby="emailHelp" placeholder="https://emaple.google.com">
+            </div>
+            
+            <div class="row">
+              <div class="form-check col-6">
+                <label for="customRange1" class="form-label">Example range <strong class="bg-success px-2 py-1">45</strong> </label>
+                <input type="range" class="form-range" id="customRange1">
+              </div>
+              <div class="col-6 mt-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+          </div>
+      </div>
+      <div class="col  text-center">
+        <img src="https://servizinazionali.infn.it/wp-content/uploads/2021/02/cuturl.png" style="border-radius: 120px; width: 200px; margin: 30px;" alt="" srcset="">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 bg-danger">
+        <h3>dhiraj mathankar</h3>
+      </div>
+      <div class="col-12 bg-success">
+        <h4>ram ram ji dhiraj mathankar </h4>
+      </div>
+     </div>
+     
+   </div>
+</main>
+
+<footer class=" fixed-bottom " style="border: 2px solid black; font-style:bold;  box-shadow:2px 0px 14px 2px black;  border: 1px solid; ">
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>
